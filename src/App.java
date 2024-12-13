@@ -19,9 +19,13 @@ public class App {
 
         System.out.println("Please Enter All the 4 Subject names and marks obtained");
         sub1=sc.next();
-        sub2=sc.nextLine();
+        int subMark1=sc.nextInt();
+        sub2=sc.next();
+        int subMark2=sc.nextInt();
         sub3=sc.nextLine();
+        int subMark3=sc.nextInt();
         sub4=sc.nextLine();
+        int subMark4=sc.nextInt();
 
         System.out.println("User Info Given :-\nfirst name :-> "+fname+" \nlast name :-> "+lname+" \nage :-> "+age+"\ngender :-> "+gender+"\nplace :-> "+place);
 
