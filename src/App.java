@@ -25,7 +25,10 @@ public class App {
         sub3=sc.nextLine();
         int subMark3=sc.nextInt();
         sub4=sc.nextLine();
-        int subMark4=sc.nextInt();
+        //int subMark4=sc.nextInt();
+
+        System.out.println("Please Enter maximum marks can be obtained in all subjects");
+        maxMarks=sc.nextInt();
 
         System.out.println("User Info Given :-\nfirst name :-> "+fname+" \nlast name :-> "+lname+" \nage :-> "+age+"\ngender :-> "+gender+"\nplace :-> "+place);
 
