@@ -7,6 +7,7 @@ public class App {
         String fname,lname,gender,place;
         int age,total,maxMarks;
         String sub1,sub2,sub3,sub4;
+        double percentage;
 
         System.out.println("Please Enter First name,last name,age,gender,place");
         fname=sc.nextLine();
@@ -22,15 +23,19 @@ public class App {
         int subMark1=sc.nextInt();
         sub2=sc.next();
         int subMark2=sc.nextInt();
-        sub3=sc.nextLine();
+        sub3=sc.next();
         int subMark3=sc.nextInt();
-        sub4=sc.nextLine();
-        //int subMark4=sc.nextInt();
+        sub4=sc.next();
+        int subMark4=sc.nextInt();
 
         System.out.println("Please Enter maximum marks can be obtained in all subjects");
         maxMarks=sc.nextInt();
 
-        System.out.println("User Info Given :-\nfirst name :-> "+fname+" \nlast name :-> "+lname+" \nage :-> "+age+"\ngender :-> "+gender+"\nplace :-> "+place);
+        total=subMark1+subMark2+subMark3+subMark4;
+
+        percentage=((double)total/(maxMarks*4.0))*100;
+
+        System.out.println("User Info Given :-\nfirst name :-> "+fname+" \nlast name :-> "+lname+" \nTotal Marks :-> "+total+"\npercentage :-> "+percentage);
 
     }
 }

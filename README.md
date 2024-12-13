@@ -11,3 +11,25 @@ Calculates the students grade based upon marks obtained
 
 Sample Input :-
 
+Hello User!
+Please Enter First name,last name,age,gender,place
+Vinay
+Rakesh
+18
+Male
+Chennai
+Please Enter All the 4 Subject names and marks obtained
+Tel 92
+Hind 89
+Englis 75
+Maths 95
+Please Enter maximum marks can be obtained in all subjects
+100
+
+Output :-
+
+User Info Given :-
+first name :-> Vinay 
+last name :-> Rakesh 
+Total Marks :-> 351
+percentage :-> 87.75
